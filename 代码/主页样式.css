@@ -55,5 +55,7 @@ body
 }
 .music
 {
-  
+  position:relative;
+  right:0%;
+  width:120px;
 }
