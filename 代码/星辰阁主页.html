@@ -13,6 +13,9 @@
      <link rel="icon" type="image/png" sizes="32x32" href="../资料/星辰阁logo.png">
     <!-- 接入CSS文件 -->
     <link rel="stylesheet" href="主页样式.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
     <!-- 接入bootstrap框架 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
 </head>
@@ -73,6 +76,9 @@
             </li>
         </ul>
     </div>
+    <div class="music">
+            <meting-js server="tencent" type="playlist" id="8523001521" list-folded="ture" loop="all" order="list"></meting-js>
+        </div>     
     <!-- 接入JS文件 -->
     <script type="text/javascript" src="花瓣.js"></script>
     <script type="text/javascript" src="小红心.js"></script>
