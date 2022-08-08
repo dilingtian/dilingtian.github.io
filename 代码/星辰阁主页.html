@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="星辰阁" content="Keywords">
+    <meta name="description" content="OJ,代码，星辰阁，网页外包，题解">
+    <title>星辰阁</title>
+    <!-- 加速 -->
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="icon" type="image/png" sizes="32x32" href="../资料/星辰阁_logo.png">
+    <!-- 接入CSS文件 -->
+    <link rel="stylesheet" href="主页样式.css">
+    <!-- 接入bootstrap框架 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+</head>
+<body>
+    <!-- 鼠标动态 -->
+    <script src="http://zhouql.vip/cdn/blast.js"></script>
+    <!--天气 -->
+    <div id="tp-weather-widget"></div>
+    <script>
+      (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+      window.SeniverseWeatherWidget('show', {
+        flavor: "bubble",
+        location: "WS0E9D8WN298",
+        geolocation: true,
+        language: "zh-Hans",
+        unit: "c",
+        theme: "auto",
+        token: "5fd5b254-57fe-4f8a-8a13-f92485efeb0b",
+        hover: "enabled",
+        container: "tp-weather-widget"
+      })
+    </script>
+    <div><a href="../代码/登录.html"><p style="color: white;position: fixed;bottom:0%;width: 300px;height: 100px;">登录</p></a></div>
+    <!-- 刷题网站 -->
+    <div class="logo">
+        <a href="星辰阁.html"> <img src="../资料/星辰阁logo.png"></a>
+    </div>
+    <div class="wrap">
+        <ul class="nav">
+            <li>
+                <a href="https://codeforces.com/problemset">
+                    <span class="iconfont icon-codeforce"></span>
+                    <span class="titile">Code Force🌈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://leetcode-cn.com/">
+                    <span class="iconfont icon-力扣"></span>
+                    <span class="titile">力扣🍺</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.nowcoder.com/">
+                    <span class="iconfont icon-牛客网"></span>
+                    <span class="titile">牛客网☔</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.acwing.com/">
+                    <span class="iconfont icon-AcWing"></span>
+                    <span class="titile">AcWing🍭</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vjudge.csgrandeur.cn/contest">
+                    <span class="iconfont icon-Virtual Judge"></span>
+                    <span class="titile">Virtual Judge🍬</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 接入JS文件 -->
+    <script type="text/javascript" src="花瓣.js"></script>
+    <script type="text/javascript" src="小红心.js"></script>
+</body>
+</html>

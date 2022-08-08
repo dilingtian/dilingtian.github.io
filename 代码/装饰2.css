@@ -1,0 +1,96 @@
+body
+{
+  width: 100%;
+  height: 100%;
+  background-image: url(..//资料/背景图片.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
+.header .星辰阁_logo
+{
+    height: 100px;
+}
+.header
+{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: rgba(0,0,0,0);
+    position:fixed;
+    top:0;
+}
+.mian
+{
+    position:relative;
+    float: left;
+    top:3%;
+    left: 10%;
+    bottom: 10%;
+    width: 1000px;
+    height: 3000px;
+    background: rgba(246, 244, 244, 1);
+}
+.side a:hover
+{
+    background-color: #ff6700;
+}
+p.text
+{
+    color:red;
+    text-align: center;
+    background-image: -webkit-linear-gradient(left, #1a5cc8, rgb(54, 247, 157) 25%, #1a5cc8 50%, rgb(54, 247, 157) 75%, #1a5cc8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.problem
+{
+    padding: 1px;
+}
+.side
+{
+    float: right;
+    width: 230px;
+    background: rgba(0, 0, 0, 0);
+    margin: 0px;
+    right:5%;
+    top:100px;
+    position:absolute;
+}
+.side a
+{
+    padding: 1px;
+    display:block;
+    width: 230px;
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.side ul
+{
+    list-style: none;
+}
+.foot
+{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+}
+#sitetime
+{
+    position: absolute;
+    bottom: 10px;
+    left:42%;
+    color: #0e0990;
+}
+.foot-word
+{
+    position:absolute;
+    left:47%;
+    bottom: 20px;
+    color: #ffffff;
+}
